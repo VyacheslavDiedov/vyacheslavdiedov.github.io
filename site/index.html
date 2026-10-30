@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Slavik Media — Performance Marketing</title>
+<meta name="description" content="Slavik Media is a performance marketing studio that plans, launches and optimizes paid social campaigns on TikTok, Meta and other platforms.">
+<style>
+  :root{--ink:#14161a;--muted:#5b6170;--line:#e6e8ec;--bg:#fff;--soft:#f6f7f9;--accent:#fe2c55}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+  a{color:inherit}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+  header{border-bottom:1px solid var(--line)}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .logo{font-weight:800;font-size:20px;text-decoration:none}
+  .logo span{color:var(--accent)}
+  nav a{margin-left:22px;text-decoration:none;color:var(--muted);font-size:15px}
+  nav a:hover{color:var(--ink)}
+  .hero{padding:80px 0 64px}
+  .hero h1{font-size:clamp(32px,5vw,48px);line-height:1.15;margin:0 0 18px;max-width:760px}
+  .hero p{font-size:18px;color:var(--muted);max-width:640px;margin:0 0 28px}
+  .btn{display:inline-block;background:var(--ink);color:#fff;padding:12px 22px;border-radius:8px;text-decoration:none;font-weight:600}
+  section{padding:64px 0;border-top:1px solid var(--line)}
+  section h2{font-size:28px;margin:0 0 8px}
+  .lead{color:var(--muted);margin:0 0 32px;max-width:680px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+  .card{background:var(--soft);border-radius:12px;padding:24px}
+  .card h3{margin:0 0 8px;font-size:18px}
+  .card p{margin:0;color:var(--muted);font-size:15px}
+  ol.steps{padding-left:20px;color:var(--muted)}
+  ol.steps li{margin-bottom:10px}
+  ol.steps b{color:var(--ink)}
+  .auth{background:#fff4f6;border:1px solid #ffd0da;border-radius:12px;padding:20px;margin:24px 0 0}
+  .auth code{display:block;background:#fff;border:1px solid var(--line);padding:12px;border-radius:8px;word-break:break-all;margin:8px 0}
+  footer{border-top:1px solid var(--line);padding:32px 0;color:var(--muted);font-size:14px}
+  footer .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between}
+  @media (max-width:640px){nav a{margin-left:14px;font-size:14px}.hero{padding:56px 0 40px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="logo" href="./">Slavik<span>Media</span></a>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#product">Product</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <h1>Performance marketing for paid social, driven by data.</h1>
+    <p>Slavik Media plans, launches and optimizes advertising campaigns on TikTok, Meta and other platforms. We focus on measurable results: lower acquisition cost, stable scaling and transparent reporting.</p>
+    <a class="btn" href="#contact">Get in touch</a>
+    <div id="auth"></div>
+  </div>
+
+  <section id="services">
+    <div class="wrap">
+      <h2>Services</h2>
+      <p class="lead">End-to-end management of paid social campaigns, from the first test to stable scale.</p>
+      <div class="grid">
+        <div class="card"><h3>Campaign management</h3><p>Account structure, audience strategy, bidding and budget management for TikTok and Meta ads.</p></div>
+        <div class="card"><h3>Creative testing</h3><p>Systematic testing of video creatives, hooks and formats to find what converts.</p></div>
+        <div class="card"><h3>Analytics &amp; reporting</h3><p>Daily performance reports at campaign, ad group and ad level, with clear KPIs.</p></div>
+        <div class="card"><h3>Tracking setup</h3><p>Pixel and event configuration so that optimization is based on reliable conversion data.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="product">
+    <div class="wrap">
+      <h2>Our product: Ads Tool</h2>
+      <p class="lead">Ads Tool is our internal software that connects to advertising platforms through their official APIs, including the TikTok Marketing API. It is used only for advertising accounts we manage.</p>
+      <ol class="steps">
+        <li><b>Reporting.</b> Collects campaign, ad group and ad level metrics (spend, impressions, CTR, CPM, conversions) into a single dashboard.</li>
+        <li><b>Monitoring.</b> Flags campaigns whose cost per result exceeds target thresholds.</li>
+        <li><b>Management.</b> Updates campaign statuses and budgets based on performance rules approved by our team.</li>
+        <li><b>Security.</b> Access is granted by the account owner through official OAuth authorization and can be revoked at any time.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <h2>About us</h2>
+      <p class="lead">Slavik Media is a performance marketing studio based in Ukraine, working with advertisers in Europe and other regions. We combine hands-on media buying with in-house automation to make campaign management faster and more transparent.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <p class="lead">For partnership or questions, email us at <a href="mailto:contact@yourdomain.com">contact@yourdomain.com</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; <span id="y"></span> Slavik Media. All rights reserved.</span>
+    <span><a href="privacy.html">Privacy Policy</a></span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+  // Shows the TikTok auth_code after OAuth redirect
+  var c = new URLSearchParams(location.search).get('auth_code');
+  if (c) {
+    var box = document.getElementById('auth');
+    box.className = 'auth';
+    box.innerHTML = '<b>Authorization code received</b><code></code><small>Copy it now: the code is valid for about 1 hour.</small>';
+    box.querySelector('code').textContent = c;
+  }
+</script>
+</body>
+</html>
